@@ -54,7 +54,7 @@ screen -S run
 ```
 ./target/release/madara run
 ```
-### CTRL + A + D to exit
+#### CTRL + A + D to exit
 
 ```
 ./target/release/madara explorer
