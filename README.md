@@ -66,8 +66,6 @@ That's it, your madara app is running
 https://docs.google.com/forms/d/e/1FAIpQLSdxqFdvI4iGewNL_N-8q8gEdJdtCeBMl9QSHp-uxnbN0RtfKA/viewform
 #### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "listing.json" with the following structure:
 
-https://github.com/karnotxyz/avail-campaign-listing
-
 ### You need to add listing.json file in this format:
 ```
 {
@@ -102,10 +100,28 @@ https://im.ge/upload
 ##### id:
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/cff17ec7-b8cd-4f9b-bd8e-145b78d9ac94)
 
+### To create a Pull Request follow these steps:
+##### Fork this repository:
+https://github.com/karnotxyz/avail-campaign-listing
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/6d858141-b9cf-474e-9f66-dc0893b3ea9a)
+
+##### Upload listing.json file
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/645a6cd2-eb5e-4704-bae3-ee89694a0bc9)
+
+##### After upload create new pull request
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/64b38ae0-fd99-48ad-9339-1b6ef7c047b7)
 
 ##### This configuration file includes essential details about your appchain, such as its name, logo URL, RPC endpoint, explorer URL, metrics endpoint, and a unique identifier. Ensure all information is accurate and up-to-date to facilitate smooth registration and participation in the campaign. Once the PR is merged, the appchain will appear on the Clash of Nodes Leaderboard.
 
-![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/6d858141-b9cf-474e-9f66-dc0893b3ea9a)
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/18f2404d-7c77-43e7-a61c-39f7bb951412)
+
+
+
+
+
                                                                                                                                                                                           
 
 
