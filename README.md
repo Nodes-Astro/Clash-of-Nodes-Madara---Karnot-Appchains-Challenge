@@ -59,16 +59,16 @@ screen -S run
 ```
 ./target/release/madara explorer
 ```
-## Optionally, explore the StarkCompass explorer. Accessible at http://localhost:4000.
+#### Optionally, explore the StarkCompass explorer. Accessible at http://localhost:4000.
 That's it, your madara app is running
 
-### If Needed, Host Your Appchain with Karnot: Karnot provides comprehensive, ready-to-use services for appchains, including RPC, proof, cross-chain capabilities, and more. Fill out this form to request hosting services:
+##### If Needed, Host Your Appchain with Karnot: Karnot provides comprehensive, ready-to-use services for appchains, including RPC, proof, cross-chain capabilities, and more. Fill out this form to request hosting services:
 https://docs.google.com/forms/d/e/1FAIpQLSdxqFdvI4iGewNL_N-8q8gEdJdtCeBMl9QSHp-uxnbN0RtfKA/viewform
-## Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "listing.json" with the following structure:
+#### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "listing.json" with the following structure:
 
 https://github.com/karnotxyz/avail-campaign-listing
 
-## You need to add listing.json file in this format:
+### You need to add listing.json file in this format:
 ```
 {
   "name": "my_app_chain",
@@ -79,7 +79,7 @@ https://github.com/karnotxyz/avail-campaign-listing
   "id": "942ff35e-f048-4d10-ae61-6cb970cad2f0"
 }
 ```
-## Details
+### Details
 
 name: The name of your app chain.
 logo: A image link for the logo of your app chain
@@ -88,22 +88,15 @@ explorer_url: A public endpoint where your app chain explorer is visible
 metrics_endpoint: A public endpoint for your prometheus metrics (port 9615 by default)
 id: Your node id
 
-## logo: You can use this website to get png url:
+##### logo: You can use this website to get png url:
 https://im.ge/upload
-## rpc-url format: "http://ipv4:9944/"
-## explorer_url: "http://ipv4:4000/"
-## metrics_endpoint: "http://ipv4:9615/"
+##### rpc-url format: "http://ipv4:9944/"
+##### explorer_url: "http://ipv4:4000/"
+##### metrics_endpoint: "http://ipv4:9615/"
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/df811ed4-9051-4e33-a4a8-83b5a96e18ef)
 
-### This configuration file includes essential details about your appchain, such as its name, logo URL, RPC endpoint, explorer URL, metrics endpoint, and a unique identifier. Ensure all information is accurate and up-to-date to facilitate smooth registration and participation in the campaign. Once the PR is merged, the appchain will appear on the Clash of Nodes Leaderboard.
-
-
-
-
-
-
-
+##### This configuration file includes essential details about your appchain, such as its name, logo URL, RPC endpoint, explorer URL, metrics endpoint, and a unique identifier. Ensure all information is accurate and up-to-date to facilitate smooth registration and participation in the campaign. Once the PR is merged, the appchain will appear on the Clash of Nodes Leaderboard.
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/d0e8012c-a31e-418c-b7bf-0c705be77fb3)
 
