@@ -79,6 +79,12 @@ https://github.com/karnotxyz/avail-campaign-listing
   "id": "942ff35e-f048-4d10-ae61-6cb970cad2f0"
 }
 ```
+To create a json listing.json file run:
+```
+sudo touch listing
+```
+##### After created add your app infos and download
+
 ### Details
 
 name: The name of your app chain.
@@ -93,12 +99,15 @@ https://im.ge/upload
 ##### rpc-url format: "http://ipv4:9944/"
 ##### explorer_url: "http://ipv4:4000/"
 ##### metrics_endpoint: "http://ipv4:9615/"
+##### id:
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/cff17ec7-b8cd-4f9b-bd8e-145b78d9ac94)
 
-![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/df811ed4-9051-4e33-a4a8-83b5a96e18ef)
 
 ##### This configuration file includes essential details about your appchain, such as its name, logo URL, RPC endpoint, explorer URL, metrics endpoint, and a unique identifier. Ensure all information is accurate and up-to-date to facilitate smooth registration and participation in the campaign. Once the PR is merged, the appchain will appear on the Clash of Nodes Leaderboard.
 
-![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/d0e8012c-a31e-418c-b7bf-0c705be77fb3)
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/6d858141-b9cf-474e-9f66-dc0893b3ea9a)
+                                                                                                                                                                                          
+
 
 
                                                                                                                                                                              
