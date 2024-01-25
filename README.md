@@ -1,1 +1,1 @@
-# Clash-of-Nodes-Madara Karnot-Appchains-Challenge
+# Clash of Nodes "Madara KarnotAppchains" Challenge
