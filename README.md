@@ -86,10 +86,15 @@ sudo touch listing
 ### Details
 
 name: The name of your app chain.
+
 logo: A image link for the logo of your app chain
+
 rpc_url: A public endpoint for your app chain to make RPC calls (port 9944 by default)
+
 explorer_url: A public endpoint where your app chain explorer is visible
+
 metrics_endpoint: A public endpoint for your prometheus metrics (port 9615 by default)
+
 id: Your node id
 
 ##### logo: You can use this website to get png url:
