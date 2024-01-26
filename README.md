@@ -81,7 +81,7 @@ To create a json listing.json file run:
 ```
 sudo touch listing
 ```
-##### After created add your app infos and download
+##### After created, add your app infos and download it on your desktop.
 
 ### Details
 
