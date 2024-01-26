@@ -102,8 +102,8 @@ https://im.ge/upload
 ##### rpc-url format: "http://ipv4:9944/"
 ##### explorer_url: "http://ipv4:4000/"
 ##### metrics_endpoint: "http://ipv4:9615/"
-##### id:
-![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/cff17ec7-b8cd-4f9b-bd8e-145b78d9ac94)
+##### id: The id is a randomly generated uuid. You can create on here: 
+https://www.uuidgenerator.net/
 
 ### To create a Pull Request follow these steps:
 ##### Fork this repository:
