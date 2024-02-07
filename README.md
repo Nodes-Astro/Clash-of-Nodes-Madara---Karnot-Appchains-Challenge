@@ -89,7 +89,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSdxqFdvI4iGewNL_N-8q8gEdJdtCeBMl9QSHp-u
 ```
 To create a json listing.json file run:
 ```
-sudo touch listing
+sudo touch "Your uid"
 ```
 ##### After created, add your app infos and download it on your desktop.
 
@@ -121,9 +121,14 @@ https://github.com/karnotxyz/avail-campaign-listing
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/6d858141-b9cf-474e-9f66-dc0893b3ea9a)
 
-##### Upload listing.json file
+##### Click on app_chains
 
-![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/645a6cd2-eb5e-4704-bae3-ee89694a0bc9)
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/7ac719eb-9a5e-4ad5-b08e-b2ac27b85b78)
+
+##### Upload "your uid".json file
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/a416dc34-c92d-4400-854b-bd07d3f5db06)
+
 
 ##### After upload create new pull request
 
