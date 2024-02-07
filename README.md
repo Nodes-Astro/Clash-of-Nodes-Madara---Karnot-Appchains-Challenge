@@ -27,6 +27,16 @@ sudo apt install git-all
 sudo apt install docker
 
 ```
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+```
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
+```
+docker-compose --version
+```
 ## Install CLI
 
 ```
@@ -66,14 +76,14 @@ That's it, your madara app is running
 https://docs.google.com/forms/d/e/1FAIpQLSdxqFdvI4iGewNL_N-8q8gEdJdtCeBMl9QSHp-uxnbN0RtfKA/viewform
 #### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "listing.json" with the following structure:
 
-### You need to add listing.json file in this format:
+### You need to add "Your uid".json file in this format:
 ```
 {
   "name": "my_app_chain",
   "logo": "https://placehold.co/400x400",
-  "rpc_url": "https://rpc.mychain.xyz",
-  "explorer_url": "https://explorer.mychain.xyz",
-  "metrics_endpoint": "https://metrics.mychain.xyz",
+  "rpc_url": "http://ipv4:9944",
+  "explorer_url": "http://ipv4:4000",
+  "metrics_endpoint": "http://ipv4:9615/metrics",
   "id": "942ff35e-f048-4d10-ae61-6cb970cad2f0"
 }
 ```
@@ -99,9 +109,9 @@ id: Your node id
 
 ##### logo: You can use this website to get png url:
 https://im.ge/upload
-##### rpc-url format: "http://ipv4:9944/"
-##### explorer_url: "http://ipv4:4000/"
-##### metrics_endpoint: "http://ipv4:9615/"
+##### rpc-url format: "http://ipv4:9944"
+##### explorer_url: "http://ipv4:4000"
+##### metrics_endpoint: "http://ipv4:9615/metrics"
 ##### id: The id is a randomly generated uuid. You can create on here: 
 https://www.uuidgenerator.net/
 
