@@ -138,6 +138,12 @@ https://github.com/karnotxyz/avail-campaign-listing
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/18f2404d-7c77-43e7-a61c-39f7bb951412)
 
+#### You may have trouble with the prettier, if you deal with the thats kind of issue:
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/a39d80da-63bb-42cd-9d7a-82af09c9d332)
+
+##### Try to copy with CTRL + A and paste it, check unnecessary spaces and delete all.
+
 
 
 
