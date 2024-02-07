@@ -48,7 +48,7 @@ cd madara-cli
 ```
 cargo build --release
 ```
-## Initialize a new app chain. Select Avail as DA and fund the DA account
+## Initialize a new app chain. Select Sovereign as Settlement and Avail as DA also fund the DA account
 ### To use faucet follow these instructions: 
 https://docs.availproject.org/about/faucet/
 
@@ -58,16 +58,22 @@ https://docs.availproject.org/about/faucet/
 ## Run your app chain:
 
 ```
-cd madara-cli
 screen -S run
+cd madara-cli
 ```
 ```
 ./target/release/madara run
 ```
+#### After finished your logs will appear on the console
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/ada11cd4-ed1d-47a2-ab44-52a2f0459e17)
+
 #### CTRL + A + D to exit
 
+## Let's match the data with explorer to view
+
 ```
-./target/release/madara explorer
+./madara-cli/target/release/madara explorer --host=$(wget -qO- eth0.me)
 ```
 #### Optionally, explore the StarkCompass explorer. Accessible at http://localhost:4000.
 That's it, your madara app is running
