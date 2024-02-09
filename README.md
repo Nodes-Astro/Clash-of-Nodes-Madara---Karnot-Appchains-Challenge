@@ -147,33 +147,33 @@ https://im.ge/upload
 
 ## To create a Pull Request follow these steps:
 
-##### Fork this repository:
+### Fork this repository:
 https://github.com/karnotxyz/avail-campaign-listing
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/6d858141-b9cf-474e-9f66-dc0893b3ea9a)
 
-##### Click on app_chains
+### Click on app_chains
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/7ac719eb-9a5e-4ad5-b08e-b2ac27b85b78)
 
-##### Upload "your uid".json file
+### Upload "your uid".json file
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/a416dc34-c92d-4400-854b-bd07d3f5db06)
 
 
-##### After upload create new pull request
+### After upload create new pull request
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/64b38ae0-fd99-48ad-9339-1b6ef7c047b7)
 
-##### This configuration file includes essential details about your appchain, such as its name, logo URL, RPC endpoint, explorer URL, metrics endpoint, and a unique identifier. Ensure all information is accurate and up-to-date to facilitate smooth registration and participation in the campaign. Once the PR is merged, the appchain will appear on the Clash of Nodes Leaderboard.
+### This configuration file includes essential details about your appchain, such as its name, logo URL, RPC endpoint, explorer URL, metrics endpoint, and a unique identifier. Ensure all information is accurate and up-to-date to facilitate smooth registration and participation in the campaign. Once the PR is merged, the appchain will appear on the Clash of Nodes Leaderboard.
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/18f2404d-7c77-43e7-a61c-39f7bb951412)
 
-#### You may have trouble with the prettier, if you deal with the thats kind of issue:
+### You may have trouble with the prettier, if you deal with the thats kind of issue:
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/a39d80da-63bb-42cd-9d7a-82af09c9d332)
 
-##### Try to copy with CTRL + A and paste it, check unnecessary spaces and delete all.
+### Try to copy with CTRL + A and paste it, check unnecessary spaces and delete all.
 
 
 
