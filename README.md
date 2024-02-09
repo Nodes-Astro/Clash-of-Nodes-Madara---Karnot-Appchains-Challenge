@@ -101,7 +101,7 @@ nano /root/.madara/app-chains/$appname/da-config.json
 
 #### Change your app id 0 to Avail app id
 
-#### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "your uid".json with the following structure:
+## Create a PR to Register Your Appchain
 
 ##### Generate a random uid from here first: (This id is only for pr different than Avail app id)
 https://www.uuidgenerator.net/
@@ -123,7 +123,7 @@ sudo touch "Your uid"
 ```
 ##### After created, add your app infos and download it on your desktop.
 
-### Details
+## Details
 
 name: The name of your app chain.
 
@@ -145,7 +145,8 @@ https://im.ge/upload
 ##### id: The id is a randomly generated uuid.
 
 
-### To create a Pull Request follow these steps:
+## To create a Pull Request follow these steps:
+
 ##### Fork this repository:
 https://github.com/karnotxyz/avail-campaign-listing
 
