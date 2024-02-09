@@ -82,7 +82,7 @@ https://app-id-gen.vercel.app/
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/d69c9fb9-ac53-4816-a86f-be36052fd072)
 
-#### You can import your Avail wallet to Polkadot.js or Talisman extension wallet to continue.
+#### You can import your Avail wallet to Polkadot.js or Talisman extension wallet to continue.(Select wallet which you use for the "Clash Of Nodes" event)
 ##### After connect your wallet write your appname and wait for getting appid.
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/7b8003c5-9831-4ff3-96eb-2244bb0f277e)
