@@ -99,7 +99,8 @@ nano /root/.madara/app-chains/$appname/da-config.json
 
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/dc6d8a96-0880-4acc-b481-a0bc6cccec3a)
 
-#### Change your app id 0 to Avail app id
+#### Change your app id 0 to Avail app id (CTRL X + Y Enter to save and exit)
+
 
 ## Create a PR to Register Your Appchain
 
@@ -174,6 +175,45 @@ https://github.com/karnotxyz/avail-campaign-listing
 ![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/a39d80da-63bb-42cd-9d7a-82af09c9d332)
 
 ### Try to copy with CTRL + A and paste it, check unnecessary spaces and delete all.
+
+# TX Script (Quoted)
+
+## Install Golang
+
+```
+ver="1.21.6"
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm "go$ver.linux-amd64.tar.gz"
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+go version
+```
+## Download
+
+```
+git clone https://github.com/sarox0987/avail-madara
+```
+```
+cd avail-madara
+```
+```
+nano rpc.json
+```
+### Add your own ipv4 to json file.(CTRL X + Y Enter to save and exit)
+
+```
+go mod tidy
+```
+```
+screen -S tx
+```
+```
+go run main.go
+```
+### CTRL A + D to exit from screen, screen -r tx to get in screen. 
+
 
 
 
