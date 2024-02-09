@@ -89,7 +89,7 @@ https://app-id-gen.vercel.app/
 
 ##### Copy your app id to notepad we'll need to write it on da-config file
 
-## Change your appid on config file
+## Change your app id on config file
 
 ```
 appname="Your appname goes here"
@@ -97,7 +97,9 @@ nano /root/.madara/app-chains/$appname/da-config.json
 ```
 ##### Delete quoation marks after you wrote your app id.
 
-#### Change your app id 0 to what you get from previous step
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/dc6d8a96-0880-4acc-b481-a0bc6cccec3a)
+
+#### Change your app id 0 to Avail app id
 
 #### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "your uid".json with the following structure:
 
