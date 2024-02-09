@@ -24,7 +24,7 @@ source $HOME/.cargo/env
 
 ```
 sudo apt install git-all
-sudo apt install docker
+sudo apt install docker.io
 
 ```
 ```
