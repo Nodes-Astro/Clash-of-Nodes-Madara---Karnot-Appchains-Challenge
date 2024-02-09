@@ -78,9 +78,32 @@ cd madara-cli
 #### Optionally, explore the StarkCompass explorer. Accessible at http://localhost:4000.
 That's it, your madara app is running
 
-##### If Needed, Host Your Appchain with Karnot: Karnot provides comprehensive, ready-to-use services for appchains, including RPC, proof, cross-chain capabilities, and more. Fill out this form to request hosting services:
-https://docs.google.com/forms/d/e/1FAIpQLSdxqFdvI4iGewNL_N-8q8gEdJdtCeBMl9QSHp-uxnbN0RtfKA/viewform
-#### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "listing.json" with the following structure:
+## Let's generate app id from Avail for the leaderboard
+https://app-id-gen.vercel.app/
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/d69c9fb9-ac53-4816-a86f-be36052fd072)
+
+#### You can import your Avail wallet to Polkadot.js or Talisman extension wallet to continue.
+##### After connect your wallet write your appname and wait for getting appid.
+
+![image](https://github.com/Alping0/Clash-of-Nodes-Madara---Karnot-Appchains-Challenge/assets/105454859/7b8003c5-9831-4ff3-96eb-2244bb0f277e)
+
+##### Copy your app id to notepad we'll need to write it on da-config file
+
+## Change your appid on config file
+
+```
+appname="Your appname goes here"
+nano /root/.madara/app-chains/$appname/da-config.json
+```
+##### Delete quoation marks after you wrote your app id.
+
+#### Change your app id 0 to what you get from previous step
+
+#### Create a PR to Register Your Appchain: For your appchain to be recognized in the Clash of Nodes campaign, you must register it by submitting a pull request in the avail-campaign-listing repository. The PR should include a JSON configuration file named "your uid".json with the following structure:
+
+##### Generate a random uid from here first: (This id is only for pr different than Avail app id)
+https://www.uuidgenerator.net/
 
 ### You need to add "Your uid".json file in this format:
 ```
@@ -93,7 +116,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSdxqFdvI4iGewNL_N-8q8gEdJdtCeBMl9QSHp-u
   "id": "942ff35e-f048-4d10-ae61-6cb970cad2f0"
 }
 ```
-To create a json listing.json file run:
+To create a json "Your id".json file run:
 ```
 sudo touch "Your uid"
 ```
@@ -118,8 +141,8 @@ https://im.ge/upload
 ##### rpc-url format: "http://ipv4:9944"
 ##### explorer_url: "http://ipv4:4000"
 ##### metrics_endpoint: "http://ipv4:9615/metrics"
-##### id: The id is a randomly generated uuid. You can create on here: 
-https://www.uuidgenerator.net/
+##### id: The id is a randomly generated uuid.
+
 
 ### To create a Pull Request follow these steps:
 ##### Fork this repository:
