@@ -49,7 +49,7 @@ cargo build --release
 ```
 ## Initialize a new app chain. Select Sovereign as Settlement and Avail as DA also fund the DA account
 ### To use faucet follow these instructions: 
-https://docs.availproject.org/about/faucet/
+[https://docs.availproject.org/about/faucet/](https://docs.availproject.org/docs/end-user-guide/faucet)
 
 ```
 ./target/release/madara init
