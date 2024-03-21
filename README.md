@@ -1,4 +1,4 @@
-# ClashOfNodes Madara KarnotAppchains Challenge
+# Clash Of Nodes Madara Karnot Appchains Challenge
 ## First install dependencies
 
 ```
